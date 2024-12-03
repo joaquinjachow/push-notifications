@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "push-notifications-demo",
-    "slug": "push-notifications-demo",
+    "slug": "push-notifications",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c3d6157-c7fa-47da-93cf-2c637fba9776"
+      }
+    },
+    "owner": "joacojachow"
   }
 }
